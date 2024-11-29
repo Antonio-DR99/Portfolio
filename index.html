@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8a4d261cd0.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Hoja Estilo/index.css">
+    <title>Hola</title>
+</head>
+<body>
+    <header>
+        <div class="container-nav">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#proyects">Proyects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-presentation">
+        <div class="subContainer-presentation">
+            <h1>Hi, It's <span class="name">Antonio<span></h1>
+            <h2>I'm a <span class="name">software</span></h2>
+            <h3 class="name">Developer</h3>
+            <div class="container-description">
+                <p>I’m a computer science enthusiast and web developer. I’m passionate about creating functional and visually appealing websites using technologies like HTML, CSS, and JavaScript. I’m always learning and looking for new challenges to improve my skills and continue growing in this field.</p>
+            </div>
+            <div class="container-social">
+                <a href="https://www.instagram.com/antonio_dr99/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/antonio-de-la-rosa-843aa1333/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Antonio-DR99" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="container-sabermas">
+                <input type="button" onclick="sabermas();" value="Know More">
+            </div>
+            <div class="container-sabermasInfo" style="display: none;" id="container-sabermas">
+                <p>Web developer passionate about technology, sports and the outdoors. I am driven by dedication and teamwork, and I believe in creating accessible digital solutions that truly improve people's lives.</p>      
+            </div>
+        </div>
+
+        <div class="container-img">
+            <img src="img/yo.JPEG">
+        </div>
+    </div>
+    
+    <div class="container-skills">
+        <div class="subcontainer-skills">
+            <h1 id="skills">Skills</h1>
+            <h2>Techologies</h2>
+            <ol>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>DATA BASE</li>
+            </ol>
+            <h2>Tools</h2>
+            <ul>
+                <li>VS Code</li>
+                <li>NeatsBeans</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>MySQL</li>
+            </ul>
+        </div>
+        <div class="container-description">
+            <h1>Description</h1>
+            <p>I am a web developer with experience in JavaScript, Java, HTML5, CSS3 and databases such as MySQL. I use tools like VS Code and NetBeans to write efficient and well-structured code. Additionally, I manage version control with Git and collaborate on projects through GitHub, which allows me to work in a more organized and team-based manner. With these technologies, I specialize in creating interactive, dynamic and optimized websites, both for the frontend and the backend. My goal is always to offer functional solutions with an excellent user experience.</p>
+            
+        </div>
+        <div class="container-logos">
+            <img src="img/HTML5.png">
+            <img src="img/css.png">
+            <img src="img/javascript.png">
+            <img src="img/java.png">
+            <img src="img/mysql.png">
+        </div>
+    </div>
+
+    <div class="container-table">
+        <h1 id="proyects">Proyects</h1>
+        <table>
+            <thead>
+                <th>NAME</th>
+                <th>TECHNOLOGIES</th>
+                <th>DURATION</th>
+                <th>REPOSITORY LINK</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Catalog</td>
+                    <td>JavaScript, HTML, CSS</td>
+                    <td>10/10/2024-17/10/2024</td>
+                    <td>
+                        <a href="https://github.com/Antonio-DR99/catalogo-musica" target="_blank" class="github-boton">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Interactive Map</td>
+                    <td>JavaScript, HTML, CSS</td>
+                    <td>17/10/2024-24/10/2024</td>
+                    <td>
+                        <a href="https://github.com/Antonio-DR99/mapa-interactivo" target="_blank" class="github-boton">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Adventure</td>
+                    <td>JavaScript, HTML, CSS</td>
+                    <td>24/10/2024-07/11/2024</td>
+                    <td>
+                        <a href="https://github.com/Antonio-DR99/aventura" target="_blank" class="github-boton">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Area Calculator</td>
+                    <td>JavaScript, HTML, CSS</td>
+                    <td>10/10/2024-17/10/2024</td>
+                    <td>
+                        <a href="https://github.com/Antonio-DR99/calculadora-areas" target="_blank" class="github-boton">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Zodiac Signs</td>
+                    <td>JavaScript, HTML, CSS</td>
+                    <td>17/10/2024-24/10/2024</td>
+                    <td>
+                        <a href="https://github.com/Antonio-DR99/signos-zodiaco?search=1" target="_blank" class="github-boton">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Game Calculator</td>
+                    <td>JavaScript, HTML, CSS</td>
+                    <td>24/10/2024-07-11/2024</td>
+                    <td>
+                        <a href="https://github.com/Antonio-DR99/calculadora-juegos" target="_blank" class="github-boton">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Safe</td>
+                    <td>JavaScript, HTML, CSS</td>
+                    <td>07/11/2024-14/11/2024</td>
+                    <td>
+                        <a href="https://github.com/Antonio-DR99/caja-fuerte" target="_blank" class="github-boton">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-contact">
+        <h1 id="contact">Keep in touch</h1>
+        <form class="container-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Affair">
+            <input type="text" placeholder="Description">
+            <textarea placeholder="PLace your message here..." rows="5">
+            </textarea>
+            <input type="submit" value="Send message">
+        </form>
+    </div>
+
+    <div class="container-list">
+        <h1 id="education">Education</h1>
+        <dl>
+            <dt>Responsive Web Design Certification - freeCodeCamp</dt>
+            <dd>Certification that covers the fundamentals of HTML5 and CSS3, as well as responsive design and web accessibility techniques using Flexbox and Grid.</dd>
+        
+            <dt>JavaScript Algorithms and Data Structures Certification - freeCodeCamp</dt>
+            <dd>Complete certification that teaches the fundamentals of JavaScript, algorithms, data structures and object-oriented programming, all focused on problem solving.</dd>
+        
+            <dt>Databases and SQL for Web Developers - Coursera (Johns Hopkins University)</dt>
+            <dd>Certification focused on the use of relational databases, SQL and how to integrate them into dynamic web applications. Learn to interact with databases such as MySQL and PostgreSQL.</dd>
+        </dl>
+    </div>
+
+
+    <footer class="section">
+        <div class="container-footer">
+            <h1>Bibliopgraphy</h1>
+            <p>I am a Web Development student with great motivation and discipline to learn new technologies. I specialize in HTML, CSS, JavaScript, and modern frameworks. My goal is to continue growing professionally, applying my skills to innovative and challenging web projects, always with a focus on continuous improvement.</p>
+        </div>
+        <section class="container-gratitude">
+            <h1>Gratitude</h1>
+            <p>I want to express my sincere gratitude to the following people and resources who have been instrumental in my learning and development as a web developer:</p>
+            <ul>
+                <li><strong>My Family</strong></li>
+                <li><strong>Eig Business</strong></li>
+                <li><strong>Midulive</strong></li>
+                <li><strong>TodoCode</strong></li>
+            </ul>
+        </section>
+    </footer>
+    <div class="container-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12706.087940161471!2d-3.6411354293030898!3d37.23532105401757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fd85ea2ca98d%3A0x89e8628b819b5b9c!2sC.%20Alicante%2C%2030%2C%2018210%20Peligros%2C%20Granada!5e0!3m2!1ses!2ses!4v1731253464353!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+
+    <script type="text/JavaScript">
+
+        function sabermas() {
+            var saberMas=document.getElementById('container-sabermas');
+            
+            if (saberMas.style.display=='none') {
+                saberMas.style.display='block'; 
+                
+            }else{
+                saberMas.style.display='none';
+            }
+        }
+
+        /*Sacado de un video de youtuve*/
+        window.onload = function() {
+        // Seleccionamos el contenedor principal de la presentación
+        var container = document.querySelector('.container-presentation');
+
+        // Al cargar la página, aplicamos la clase que activa la animación
+        container.style.opacity = '1';
+        };
+    </script>
+</body>
+</html>
